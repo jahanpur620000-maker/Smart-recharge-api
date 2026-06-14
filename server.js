@@ -13,10 +13,10 @@ app.post('/api/recharge', async (req, res) => {
 
     // 🔴 IMPORTANT: Yahan 'XXXX' ki jagah Ezytm se dekh kar asli codes daalne honge
     const operatorCodes = {
-        "jio": "XXXX", 
-        "airtel": "XXXX",
-        "vi": "XXXX",
-        "bsnl": "XXXX"
+        "jio": "12", 
+        "airtel": "1",
+        "vi": "10",
+        "bsnl": "13"
     };
 
     const opId = operatorCodes[operator.toLowerCase()];
